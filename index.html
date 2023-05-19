@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Space Grotesk" rel="stylesheet">
+    <title>CS L08 Assignment</title>
+</head>
+
+<body>
+    <div id="content">
+        <h1>My Contact Form</h1>
+        <form>
+            <div id="labelFont">
+            <label for="fullName">Full Name</label>
+        </div>
+            <input type="text" id="name" name="fullName"><br>
+        <div id="labelFont">
+            <label for="email">Email</label>
+        </div>
+            <input type="text" id ="email" name="email"><br>
+        <div id="labelFont">
+            <label for="message">Message</label>
+        </div>
+            <input type="text" id="message" name="message"><br>
+            <button type="submit", id="btn">SUBMIT</button>
+        </form>
+    </div>
+    <div id="contactCard">
+        <h2>Contacts</h2>
+    <div id="nameEmail">
+        <p id="postFullName"></p>
+        <p id="postEmail"></p>
+    </div>
+        <div id="messageBox">
+        <p id="postMessage"></p>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
